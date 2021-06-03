@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067953890811",
+    "project_id": "candle-library",
+    "storage_bucket": "candle-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067953890811:android:87dbf29ec4654d40f3175e",
+        "android_client_info": {
+          "package_name": "com.candleLibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067953890811-am1kr84lcfp3190399hj83g74268v7f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUDeAD1b-eMJOM9mTzazUAo9_agadprAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067953890811-am1kr84lcfp3190399hj83g74268v7f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,6 +4,8 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 
 import { BookDetail } from "./screens/";
 import Tabs from "./navigation/tabs";
+import { useState } from 'react';
+import LoginScreen from './screens/LoginScreen';
 
 const theme = {
     ...DefaultTheme,
@@ -16,6 +18,7 @@ const theme = {
 const Stack = createStackNavigator();
 
 const App = () => {
+    const [isFirstLaunch, setIsFirstLaunch] = useState(null); 
     return (
         <NavigationContainer theme={theme}>
             <Stack.Navigator
@@ -26,6 +29,8 @@ const App = () => {
             >
                 {/* Tabs */}
                 <Stack.Screen name="Home" component={Tabs} />
+                <Stack.Screen name="Login" component={LoginScreen} />
+                
 
                 {/* Screens */}
                 <Stack.Screen name="BookDetail" component={BookDetail} options={{ headerShown: false }} />
