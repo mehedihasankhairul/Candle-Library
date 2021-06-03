@@ -22,23 +22,23 @@ const LineDivider = () => {
 const Home = ({ navigation }) => {
 
     const profileData = {
-        name: 'Username',
-        point: 200
+        name: 'Sir',
+        point: 150
     }
 
-    const bookOtherWordsForHome = {
+    const eloquentJavaScript = {
         id: 1,
-        bookName: "Other Words For Home",
-        bookCover: images.otherWordsForHome,
-        rating: 4.5,
-        language: "Eng",
-        pageNo: 341,
-        author: "Jasmine Warga",
+        bookName: "Eloquent JavaScript",
+        bookCover: images.eloquentJavaScript,
+        rating: 4.8,
+        language: "English",
+        pageNo: 325,
+        author: "Marijn Haverbeke",
         genre: [
-            "Romance", "Adventure", "Drama"
+            "Programming", "JavaScript", "Web Development"
         ],
-        readed: "12k",
-        description: "Jude never thought she’d be leaving her beloved older brother and father behind, all the way across the ocean in Syria. But when things in her hometown start becoming volatile, Jude and her mother are sent to live in Cincinnati with relatives. At first, everything in America seems too fast and too loud. The American movies that Jude has always loved haven’t quite prepared her for starting school in the US—and her new label of 'Middle Eastern,' an identity she’s never known before. But this life also brings unexpected surprises—there are new friends, a whole new family, and a school musical that Jude might just try out for. Maybe America, too, is a place where Jude can be seen as she really is.",
+        readed: "110k",
+        description: "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications. JavaScript lies at the heart of almost every modern web application, from social apps like Twitter to browser-based game frameworks like Phaser and Babylon.",
         backgroundColor: "rgba(240,240,232,0.9)",
         navTintColor: "#000"
     }
@@ -79,7 +79,7 @@ const Home = ({ navigation }) => {
 
     const myBooksData = [
         {
-            ...bookOtherWordsForHome,
+            ...eloquentJavaScript,
             completion: "75%",
             lastRead: "3d 5h",
 
@@ -103,7 +103,7 @@ const Home = ({ navigation }) => {
             id: 1,
             categoryName: "Best Seller",
             books: [
-                bookOtherWordsForHome, bookTheMetropolis, bookTheTinyDragon
+                eloquentJavaScript, bookTheMetropolis, bookTheTinyDragon
             ]
         },
         {
