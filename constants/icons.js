@@ -13,22 +13,33 @@ export const bookmark_icon = require("../assets/icons/bookmark_icon.png");
 export const read_icon = require("../assets/icons/read_icon.png");
 export const back_arrow_icon = require("../assets/icons/back_arrow_icon.png");
 export const more_icon = require("../assets/icons/more_icon.png");
-
+export const location_icon = require("../assets/icons/loction.png");
+export const email_icon = require("../assets/icons/email.png");
+export const cart_icon = require("../assets/icons/cart.png");
+export const edit_icon = require("../assets/icons/edit.png");
+export const phone_icon = require("../assets/icons/phone.png");
+export const order_icon = require("../assets/icons/order.jpg");
 
 export default {
-    card_icon,
-    claim_icon,
-    dashboard_icon,
-    menu_icon,
-    notification_icon,
-    point_icon,
-    search_icon,
-    clock_icon,
-    page_icon,
-    page_filled_icon,
-    plus_icon,
-    bookmark_icon,
-    read_icon,
-    back_arrow_icon,
-    more_icon
-}
+  card_icon,
+  claim_icon,
+  dashboard_icon,
+  menu_icon,
+  notification_icon,
+  point_icon,
+  search_icon,
+  clock_icon,
+  page_icon,
+  page_filled_icon,
+  plus_icon,
+  bookmark_icon,
+  read_icon,
+  back_arrow_icon,
+  more_icon,
+  location_icon,
+  email_icon,
+  cart_icon,
+  edit_icon,
+  phone_icon,
+  order_icon,
+};

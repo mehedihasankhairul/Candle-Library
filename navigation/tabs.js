@@ -5,6 +5,7 @@ import {
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Home } from "../screens/";
 import { icons, COLORS } from "../constants";
+import Setting from "../screens/Setting";
 
 const Tab = createBottomTabNavigator();
 
@@ -94,7 +95,7 @@ const Tabs = () => {
             />
             <Tab.Screen
                 name="Setting"
-                component={Home}
+                component={Setting}
             />
         </Tab.Navigator>
     )
