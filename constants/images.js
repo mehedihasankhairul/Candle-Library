@@ -3,6 +3,7 @@ export const theMetropolist = require("../assets/images/the_metropolist.jpg");
 export const theTinyDragon = require("../assets/images/the_tiny_dragon.jpg");
 export const underland = require("../assets/images/underland.jpg");
 export const eloquentJavaScript = require("../assets/images/Eloquent_JavaScript.jpg");
+export const userAvatar = require('../assets/images/avatar.png');
 
 
 export default {
@@ -10,5 +11,6 @@ export default {
     theMetropolist,
     theTinyDragon,
     underland,
-    eloquentJavaScript
+    eloquentJavaScript,
+    userAvatar
 }
